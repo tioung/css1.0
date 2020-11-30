@@ -1,0 +1,28 @@
+body{
+    font-size:1rem;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin:0;
+    height:100vh;
+}
+div{
+    
+    padding:2em;
+    width:90%;
+    height:70vh;
+    background: linear-gradient(rgba(255, 0, 0, 0.45),rgba(0, 0, 255, 0.45)), 
+                url("https://images.unsplash.com/photo-1507469928650-5adc680ad6d1?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1489&q=80") no-repeat fixed center;
+    background-size:cover;
+    background-blend-mode: multiply;
+}
+
+div h1{
+    text-align: center;
+    font-size:3rem;
+    color:rgba(255,255,255,0.6);
+    transition: color 0.2s ease;
+}
+div h1:hover{
+    color:rgba(255,255,255,0.5);
+}
